@@ -20,6 +20,8 @@
     background: #eee;
     height: 50px;
     font-size: 14px;
+    opacity: 1;
+    z-index:100;
   }
 
 </style>

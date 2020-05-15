@@ -15,14 +15,15 @@ export default {
   data() {
     return {
       currentIndex: 0
-    };
+    }
   },
   methods: {
     isActive(k) {
       this.currentIndex = k;
+      this.$emit('tabclick',k)
     }
   }
-};
+}
 </script>
 
 <style scoped>

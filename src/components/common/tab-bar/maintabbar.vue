@@ -1,23 +1,22 @@
 <template>
-  <div>
-      <router-view></router-view>
+  <div class="mianbar">
       <Tabbar>
-        <TabbarItem path="/home" activeColor="blue">
+        <TabbarItem path="/home">
           <div class="fa fa-home" slot="tab-icon"></div>
           <div class="fa fa-star" slot="tab-icon-active"></div>
           <div slot="tab-text">首页</div>
         </TabbarItem>
-        <TabbarItem path="/category" activeColor="yellow">
+        <TabbarItem path="/category">
           <div class="fa fa-home" slot="tab-icon"></div>
           <div class="fa fa-star" slot="tab-icon-active"></div>
           <div slot="tab-text">分类</div>
         </TabbarItem>
-        <TabbarItem path="/cart" activeColor="green">
+        <TabbarItem path="/cart">
           <div class="fa fa-home" slot="tab-icon"></div>
           <div class="fa fa-star" slot="tab-icon-active"></div>
           <div slot="tab-text">购物车</div>
         </TabbarItem>
-        <TabbarItem path="/profile" activeColor="red">
+        <TabbarItem path="/profile">
           <div class="fa fa-home" slot="tab-icon"></div>
           <div class="fa fa-star" slot="tab-icon-active"></div>
           <div slot="tab-text">我的</div>
